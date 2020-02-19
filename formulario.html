@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title >MUSEO HERMITAGE</title>
+		<meta charset="utf-8">
+		<link rel="icon" type="image/png" href="hermitage.png">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+
+	<body bgcolor="#bbb">
+		<h1>REGISTRO</h1>
+		<form>
+			<fieldset >
+				<label>
+				Nombre:
+				<input required="true" minlength="3" type="text" name="nombre"><br>
+				</label>
+				<br>
+				<legend>Genero:</legend>
+				<label><input type="radio" name="Genero" 
+				value="masculino" checked="true">Masculino</label><br>
+				<label><input type="radio" name="Genero"
+				value="femenino">Femenino</label><br>
+				<label><input type="radio" name="Genero" 
+				value="otro">Sin especificar</label><br>
+				<br>
+				<label>
+				Correo: <input type="email" name="email" required><br>
+				</label>
+				<br>
+				<label>
+				Telefono:
+				<input type="tel" name="tel" value="+7 (812)" ><br>
+				</label>
+			</fieldset>
+			<label>
+				<button style="color: blue" type="reset" name="reset" value="reset">Limpiar formulario.</button>
+				<button style="color: blue" type="submit" name="submit" value="submit">Enviar formulario.</button>
+			</label>
+			<br><br>
+			<label>
+				<a href="principal.html">Principal</a>
+				<a href="galeria.html">Galeria</a>
+				
+			</label>
+			<colgroup> </colgroup>
+		</form>
+	</body>
+	</html>
